@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "marioFireBall.png",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
