@@ -13,7 +13,7 @@
 		254C27FE1C50627A0074F515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254C27FC1C50627A0074F515 /* Main.storyboard */; };
 		254C28001C50627A0074F515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254C27FF1C50627A0074F515 /* Assets.xcassets */; };
 		254C28031C50627A0074F515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254C28011C50627A0074F515 /* LaunchScreen.storyboard */; };
-		254C280B1C506E5F0074F515 /* marioSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 254C280A1C506E5F0074F515 /* marioSong.mp3 */; };
+		25CEB3DF1C50953E006E16AD /* marioSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25CEB3DE1C50953E006E16AD /* marioSong.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		254C27FF1C50627A0074F515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		254C28021C50627A0074F515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		254C28041C50627A0074F515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		254C280A1C506E5F0074F515 /* marioSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = marioSong.mp3; path = ../../marioSong.mp3; sourceTree = "<group>"; };
+		25CEB3DE1C50953E006E16AD /* marioSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = marioSong.mp3; path = SimpleGame2/Assets.xcassets/Media/marioSong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +44,7 @@
 			children = (
 				254C27F31C50627A0074F515 /* SimpleGame2 */,
 				254C27F21C50627A0074F515 /* Products */,
+				25CEB3DE1C50953E006E16AD /* marioSong.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +61,6 @@
 			children = (
 				254C27F41C50627A0074F515 /* AppDelegate.swift */,
 				254C27F81C50627A0074F515 /* GameScene.swift */,
-				254C280A1C506E5F0074F515 /* marioSong.mp3 */,
 				254C27FA1C50627A0074F515 /* GameViewController.swift */,
 				254C27FC1C50627A0074F515 /* Main.storyboard */,
 				254C27FF1C50627A0074F515 /* Assets.xcassets */,
@@ -130,7 +130,7 @@
 			files = (
 				254C28031C50627A0074F515 /* LaunchScreen.storyboard in Resources */,
 				254C28001C50627A0074F515 /* Assets.xcassets in Resources */,
-				254C280B1C506E5F0074F515 /* marioSong.mp3 in Resources */,
+				25CEB3DF1C50953E006E16AD /* marioSong.mp3 in Resources */,
 				254C27FE1C50627A0074F515 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +292,7 @@
 				254C28091C50627A0074F515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
