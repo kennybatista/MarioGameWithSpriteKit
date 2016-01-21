@@ -10,9 +10,11 @@ import SpriteKit
 
 class GameScene: SKScene {
     
+    var background = SKSpriteNode(imageNamed: "background")
+    
     let player = SKSpriteNode(imageNamed: "marioFireBall.png")
     
-    var background = SKSpriteNode(imageNamed: "background")
+    
     
     
     
@@ -20,7 +22,7 @@ class GameScene: SKScene {
         /* Setup your scene here */
         
         
-        background.position = CGPoint(x: frame.size.width / 1, y: frame.size.height / 1)
+       background.position = CGPoint(x: frame.size.width / 1, y: frame.size.height / 1)
         
         addChild(background)
         

@@ -25,7 +25,7 @@
 		254C27FF1C50627A0074F515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		254C28021C50627A0074F515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		254C28041C50627A0074F515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25CEB3DE1C50953E006E16AD /* marioSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = marioSong.mp3; path = SimpleGame2/Assets.xcassets/Media/marioSong.mp3; sourceTree = "<group>"; };
+		25CEB3DE1C50953E006E16AD /* marioSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = marioSong.mp3; path = Assets.xcassets/Media/marioSong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,6 @@
 			children = (
 				254C27F31C50627A0074F515 /* SimpleGame2 */,
 				254C27F21C50627A0074F515 /* Products */,
-				25CEB3DE1C50953E006E16AD /* marioSong.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +65,7 @@
 				254C27FF1C50627A0074F515 /* Assets.xcassets */,
 				254C28011C50627A0074F515 /* LaunchScreen.storyboard */,
 				254C28041C50627A0074F515 /* Info.plist */,
+				25CEB3DE1C50953E006E16AD /* marioSong.mp3 */,
 			);
 			path = SimpleGame2;
 			sourceTree = "<group>";
